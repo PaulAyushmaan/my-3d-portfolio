@@ -19,8 +19,8 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<img src={logo} alt="logo" className="w-12 h-12 object-contain" />
-					<p className="text-white text-[18px] font-bold cursor-pointer">
+					<img src={logo} alt="logo" className="w-11 h-11 object-contain" />
+					<p className="text-white text-[20px] font-bold cursor-pointer ">
 						Ayushmaan Paul
 					</p>
 				</Link>
