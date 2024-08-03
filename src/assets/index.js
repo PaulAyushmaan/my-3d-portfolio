@@ -36,6 +36,9 @@ import sportivo from './sportivo.png';
 import weatherWebsite from './weatherWebsite.png';
 import musicfyy from './musicfyy.png';
 
+import ayan from './ayan.png';
+import samrat from './samrat.png';
+import abhirup from './abhirup.png';
 export {
 	logo,
 	backend,
@@ -71,4 +74,7 @@ export {
 	weatherWebsite,
 	musicfyy,
 	celebal,
+	ayan,
+	samrat,
+	abhirup,
 };
