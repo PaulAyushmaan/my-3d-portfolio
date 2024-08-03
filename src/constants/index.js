@@ -23,6 +23,11 @@ import {
 	jobit,
 	tripguide,
 	threejs,
+	portfolio,
+	sportivo,
+	weatherWebsite,
+	musicfyy,
+	celebal,
 } from '../assets';
 
 export const navLinks = [
@@ -117,54 +122,15 @@ const technologies = [
 const experiences = [
 	{
 		title: 'React.js Developer',
-		company_name: 'Starbucks',
-		icon: starbucks,
+		company_name: 'Celebal Technologies',
+		icon: celebal,
 		iconBg: '#383E56',
-		date: 'March 2020 - April 2021',
+		date: 'May 2024 - July 2024',
 		points: [
 			'Developing and maintaining web applications using React.js and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
 			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
-		],
-	},
-	{
-		title: 'React Native Developer',
-		company_name: 'Tesla',
-		icon: tesla,
-		iconBg: '#E6DEDD',
-		date: 'Jan 2021 - Feb 2022',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
-		],
-	},
-	{
-		title: 'Web Developer',
-		company_name: 'Shopify',
-		icon: shopify,
-		iconBg: '#383E56',
-		date: 'Jan 2022 - Jan 2023',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
-		],
-	},
-	{
-		title: 'Full stack Developer',
-		company_name: 'Meta',
-		icon: meta,
-		iconBg: '#E6DEDD',
-		date: 'Jan 2023 - Present',
-		points: [
-			'Developing and maintaining web applications using React.js and other related technologies.',
-			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-			'Implementing responsive design and ensuring cross-browser compatibility.',
-			'Participating in code reviews and providing constructive feedback to other developers.',
+			'Enhanced User Experience: Implemented intuitive UI/UX designs, improving user engagement and website accessibility.',
 		],
 	},
 ];
@@ -198,16 +164,16 @@ const testimonials = [
 
 const projects = [
 	{
-		name: 'Car Rent',
+		name: "Ayushmaan's Portfolio Website",
 		description:
-			'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+			' Developed a personal portfolio website using React , Three.js and tailwind to showcase my projects, skills, and experience',
 		tags: [
 			{
 				name: 'react',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'mongodb',
+				name: 'Three JS',
 				color: 'green-text-gradient',
 			},
 			{
@@ -215,20 +181,21 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: carrent,
-		source_code_link: 'https://github.com/',
+		image: portfolio,
+		source_code_link: 'https://github.com/PaulAyushmaan/my-3d-portfolio/',
+		liveUrl_link: 'https://ayushmaanpaul.vercel.app/',
 	},
 	{
-		name: 'Job IT',
+		name: 'Sportivo-4.0',
 		description:
-			'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+			' This is a Annual Sports 2024 Registration Website for Techno Engineering College Banipur. This website was built with HTML,CSS & JavaScript.Student Registration, Implemented Smooth Scrolling, Real-Time Event Timer.',
 		tags: [
 			{
-				name: 'react',
+				name: 'API',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'restapi',
+				name: 'JavaScript',
 				color: 'green-text-gradient',
 			},
 			{
@@ -236,20 +203,39 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: jobit,
-		source_code_link: 'https://github.com/',
+		image: sportivo,
+		source_code_link: 'https://github.com/PaulAyushmaan/Sportivo-4.0',
+		liveUrl_link: 'https://sportivo-4.netlify.app/',
 	},
 	{
-		name: 'Trip Guide',
+		name: 'Musicfyy',
 		description:
-			'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+			'This is a Frontend of a Music Streaming Platform Named Musicfyy. Here You Can Play Selected Songs',
 		tags: [
 			{
-				name: 'nextjs',
+				name: 'Vanila JS',
 				color: 'blue-text-gradient',
 			},
 			{
-				name: 'supabase',
+				name: 'API',
+				color: 'green-text-gradient',
+			},
+		],
+		image: musicfyy,
+		source_code_link: 'https://github.com/PaulAyushmaan/Musicfyy',
+		liveUrl_link: 'https://musicfyy.freewebhostmost.com/',
+	},
+	{
+		name: 'Weather App',
+		description:
+			'  Weather Forecasting website created with vanila JavaScript and OpenWeather API.',
+		tags: [
+			{
+				name: 'OpenWeather API',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'JavaScript',
 				color: 'green-text-gradient',
 			},
 			{
@@ -257,8 +243,9 @@ const projects = [
 				color: 'pink-text-gradient',
 			},
 		],
-		image: tripguide,
-		source_code_link: 'https://github.com/',
+		image: weatherWebsite,
+		source_code_link: 'https://github.com/PaulAyushmaan/weather-app0',
+		liveUrl_link: 'https://weather-forecasting-ap.netlify.app//',
 	},
 ];
 

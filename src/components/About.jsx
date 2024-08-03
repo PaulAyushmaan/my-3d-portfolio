@@ -38,13 +38,11 @@ const About = () => {
 				variants={fadeIn('', '', 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur
-				laboriosam repudiandae consequatur quaerat ex, possimus accusamus
-				excepturi blanditiis architecto! Magni voluptatibus asperiores autem
-				accusantium excepturi repudiandae fugit alias odio incidunt
-				necessitatibus nihil provident nesciunt quasi tenetur reprehenderit sit
-				quos adipisci, et amet eos, ab hic cupiditate! Perspiciatis
-				reprehenderit at natus!
+				I am Ayushmaan Paul, a Computer Science Engineering student at Techno
+				Engineering College Banipur, currently maintaining a 9.09 GPA. With
+				expertise in C, JavaScript, and Java, as well as web technologies like
+				HTML, CSS, React.js, and Node js, I have a strong foundation in web
+				development.
 			</motion.p>
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
