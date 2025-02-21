@@ -31,6 +31,7 @@ import {
 	ayan,
 	samrat,
 	abhirup,
+	crawfiled
 } from '../assets';
 
 export const navLinks = [
@@ -129,6 +130,19 @@ const experiences = [
 		icon: celebal,
 		iconBg: '#383E56',
 		date: 'May 2024 - July 2024',
+		points: [
+			'Developing and maintaining web applications using React.js and other related technologies.',
+			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
+			'Implementing responsive design and ensuring cross-browser compatibility.',
+			'Enhanced User Experience: Implemented intuitive UI/UX designs, improving user engagement and website accessibility.',
+		],
+	},
+	{
+		title: 'Software Developer',
+		company_name: 'Crawfield & Dutton Enterprise Solutions',
+		icon: crawfiled,
+		iconBg: '#383E56',
+		date: 'Jan 2025 - Present',
 		points: [
 			'Developing and maintaining web applications using React.js and other related technologies.',
 			'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
