@@ -25,7 +25,7 @@ const ProjectCard = ({
 					scale: 1,
 					speed: 450,
 				}}
-				className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+				className="bg-[#232631] p-5 rounded-2xl sm:w-[360px] w-full"
 			>
 				<div className="relative w-full h-[230px]">
 					<img
@@ -34,14 +34,14 @@ const ProjectCard = ({
 						className="w-full h-full object-cover rounded-2xl"
 					/>
 
-					<div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+					<div className="absolute inset-0 flex flex-row gap-2 justify-end items-start m-3">
 						<div
 							onClick={() => window.open(liveUrl_link, '_blank')}
 							className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
 						>
 							<img
 								src={liveUrl}
-								alt="source code"
+								alt="Live demo"
 								className="w-1/2 h-1/2 object-contain"
 							/>
 						</div>
@@ -51,7 +51,7 @@ const ProjectCard = ({
 						>
 							<img
 								src={github}
-								alt="source code"
+								alt="Source code"
 								className="w-1/2 h-1/2 object-contain"
 							/>
 						</div>
@@ -99,10 +99,16 @@ const Works = () => {
 				</motion.p>
 			</div>
 
-			<div className="mt-20 flex flex-wrap gap-7">
-				{projects.map((project, index) => (
-					<ProjectCard key={`project-${index}`} index={index} {...project} />
-				))}
+			<div className="mt-20 flex flex-col sm:flex-row flex-wrap gap-7">
+				{projects && projects.length > 0 ? (
+					projects.map((project, index) => (
+						<ProjectCard key={`project-${index}`} index={index} {...project} />
+					))
+				) : (
+					<p className="text-white text-center w-full">
+						No projects found. Please check your project data.
+					</p>
+				)}
 			</div>
 		</>
 	);
