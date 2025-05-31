@@ -39,8 +39,8 @@ const About = () => {
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
 				I am Ayushmaan Paul, a Computer Science Engineering student at Techno
-				Engineering College Banipur, currently maintaining a 9.09 GPA. With
-				expertise in C, JavaScript, and Java, as well as web technologies like
+				Engineering College Banipur, currently maintaining a 9.07 GPA. With
+				expertise in Python, C, JavaScript, and Java, as well as web technologies like FastAPI,MongoDB
 				HTML, CSS, React.js, and Node js, I have a strong foundation in web
 				development.
 			</motion.p>

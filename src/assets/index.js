@@ -35,6 +35,8 @@ import portfolio from './portfolio.png';
 import sportivo from './sportivo.png';
 import weatherWebsite from './weatherWebsite.png';
 import musicfyy from './musicfyy.png';
+import kycFabric from './kycFabric.png';
+import expense from './expense.png';
 
 import ayan from './ayan.png';
 import samrat from './samrat.png';
@@ -73,6 +75,8 @@ export {
 	sportivo,
 	weatherWebsite,
 	musicfyy,
+	kycFabric,
+	expense,
 	celebal,
 	crawfiled,
 	ayan,

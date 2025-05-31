@@ -31,7 +31,9 @@ import {
 	ayan,
 	samrat,
 	abhirup,
-	crawfiled
+	crawfiled,
+	kycFabric,
+	expense
 } from '../assets';
 
 export const navLinks = [
@@ -180,6 +182,40 @@ const testimonials = [
 
 const projects = [
 	{
+		name: "KYC Fabric",
+		description:
+			' KYC Fabric is a fast, secure, and credit-based Know Your Customer (KYC) verification platform built for modern businesses—especially hotels, restaurants, and service providers who need to verify customer identities quickly and reliably.',
+		tags: [
+			{
+				name: 'FatAPI',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'Python',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'MongoDB',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'React',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'Tailwind CSS',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'AWS Lambda',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: kycFabric,
+		source_code_link: 'https://github.com/CrawfieldAndDutton/odin',
+		liveUrl_link: 'https://kyc-fabric.crawfieldanddutton.com/',
+	},
+	{
 		name: "Ayushmaan's Portfolio Website",
 		description:
 			' Developed a personal portfolio website using React , Three.js and tailwind to showcase my projects, skills, and experience',
@@ -200,6 +236,36 @@ const projects = [
 		image: portfolio,
 		source_code_link: 'https://github.com/PaulAyushmaan/my-3d-portfolio/',
 		liveUrl_link: 'https://ayushmaanpaul.vercel.app/',
+	},
+	{
+		name: "Expense Management System",
+		description:
+			' Developed a full-stack expense management system using React, Node.js, and MongoDB to help users track their expenses and manage their finances effectively.',
+		tags: [
+			{
+				name: 'react.js',
+				color: 'blue-text-gradient',
+			},
+			{
+				name: 'express.js',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'Node.js',
+				color: 'pink-text-gradient',
+			},
+			{
+				name: 'Tailwind CSS',
+				color: 'green-text-gradient',
+			},
+			{
+				name: 'MongoDB',
+				color: 'pink-text-gradient',
+			},
+		],
+		image: expense,
+		source_code_link: 'https://github.com/PaulAyushmaan/ExpenseManagementSystem',
+		liveUrl_link: 'https://expense-management-system-go4a.vercel.app/',
 	},
 	{
 		name: 'Sportivo-4.0',
